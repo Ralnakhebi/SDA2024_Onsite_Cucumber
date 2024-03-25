@@ -19,7 +19,6 @@ public class CommonStepDef {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        System.out.println("2");
     }
     @Given("I am on the google homepage")
     public void i_am_on_the_google_homepage() {

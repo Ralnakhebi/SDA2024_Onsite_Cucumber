@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/secondFeature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: secondFeature">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: firstfeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" />
@@ -130,8 +126,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: secondFeature" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: secondFeature" />
         <item itemvalue="Cucumber Java.Feature: firstfeature" />
         <item itemvalue="Cucumber Java.Scenario: The name of the scenario" />
       </list>
@@ -160,7 +156,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/runners/Runner.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -14,3 +14,14 @@ Feature: Search in google
     Then tests the page title contains the word "cucumber"
     And closes the page
 
+
+  Scenario Outline:
+    When user searches for "<searchKey>"
+    Then tests the page title contains the word "<searchKey>"
+    And closes the page
+    Examples:
+      | searchKey | searchKey |  |
+      | cucumber  | cucumber  |  |
+      | java      | java      |  |
+
+

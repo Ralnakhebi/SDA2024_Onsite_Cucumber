@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/secondFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/secondFeature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +37,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: TestInputValidation.executor": "Run",
     "Cucumber Java.Feature: firstfeature.executor": "Run",
     "Cucumber Java.Feature: secondFeature.executor": "Run",
+    "Cucumber Java.Scenario:  (1).executor": "Run",
+    "Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1.executor": "Run",
+    "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: The name of the scenario.executor": "Run",
     "JUnit.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -43,16 +52,39 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Remoo\IdeaProjects\SDA2024_Onsite_Cucumber\src\test\resources\features\HW" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: firstfeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TestInputValidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SDA2024_Onsite_Cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TestInputValidation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario:  - @ScenarioOut... - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature:17" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: firstfeature" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario:  - @ScenarioOut... - Example n°1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -62,36 +94,37 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: secondFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
+      <option name="GLUE" value="stepdefinitions.HW" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SDA2024_Onsite_Cucumber" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/secondFeature.feature" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: secondFeature" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: The name of the scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SDA2024_Onsite_Cucumber" />
-      <option name="NAME_FILTER" value="^The name of the scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The name of the scenario$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: The name of the scenario" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,17 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: secondFeature" />
-      <item itemvalue="Cucumber Java.Feature: firstfeature" />
-      <item itemvalue="Cucumber Java.Scenario: The name of the scenario" />
+      <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
+      <item itemvalue="Cucumber Java.Scenario: " />
+      <item itemvalue="Cucumber Java.Scenario:  (1)" />
+      <item itemvalue="Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1" />
       <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: secondFeature" />
-        <item itemvalue="Cucumber Java.Feature: firstfeature" />
-        <item itemvalue="Cucumber Java.Scenario: The name of the scenario" />
+        <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
+        <item itemvalue="Cucumber Java.Scenario:  (1)" />
+        <item itemvalue="Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1" />
+        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>

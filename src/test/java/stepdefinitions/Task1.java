@@ -25,9 +25,7 @@ public class Task1 {
     @Then("tests the page title contains the word {string}")
     public void tests_the_page_title_contains_the_word(String string) {
      Assert.assertTrue(driver.getTitle().contains(string));
+     driver.close();
     }
-    @Then("closes the page")
-    public void closes_the_page() {
-        driver.close();
-    }
+
 }

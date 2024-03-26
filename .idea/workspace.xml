@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Button_HW_MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Button_HW_MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Button_HW_MyStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     "Cucumber Java.Feature: scenarioOutline.executor": "Run",
     "Cucumber Java.Feature: secondFeature.executor": "Run",
     "Cucumber Java.Scenario:  (1).executor": "Run",
+    "Cucumber Java.Scenario:  - @R - Example n°1.executor": "Run",
     "Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1.executor": "Run",
     "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: Search for Keywords on Ebay.executor": "Run",
@@ -59,7 +56,7 @@
       <recent name="C:\Users\Remoo\IdeaProjects\SDA2024_Onsite_Cucumber\src\test\resources\features\HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: clickButtons">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: clickButtons" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" />
@@ -162,9 +159,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: clickButtons" />
         <item itemvalue="Cucumber Java.Scenario:  - @R - Example n°1" />
-        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: scenarioOutline" />
         <item itemvalue="Cucumber Java.Scenario: Search for Keywords on Ebay" />
       </list>

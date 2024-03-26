@@ -30,14 +30,14 @@ public class Button_HW_MyStepdefs {
                 ).click();
                 break;
             case "One":
-                wait=new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(10));
+                wait=new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(5));
                 WebElement OneButton =Driver.getDriver().findElement(
                         By.id("button01"));
                 wait.until(ExpectedConditions.visibilityOf(OneButton));
                 OneButton.click();
                 break;
             case "Two":
-                wait=new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(10));
+                wait=new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(5));
                 WebElement TwoButton =Driver.getDriver().findElement(
                         By.id("button02"));
                 wait.until(ExpectedConditions.visibilityOf(TwoButton));
@@ -58,10 +58,8 @@ public class Button_HW_MyStepdefs {
 
     @Then("verify message will appear")
     public void verifyMessageWillAppear() {
-        WebDriverWait wait=new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
         WebElement verifyMessage =Driver.getDriver().findElement(
                 By.id("buttonmessage"));
-        wait.until(ExpectedConditions.visibilityOf(verifyMessage));
         Assert.assertTrue(verifyMessage.getText().contains("All Buttons Clicked"));
     }
 }

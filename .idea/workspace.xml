@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/secondFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/secondFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,17 +186,6 @@
       <updated>1711348248142</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/runners/Runner.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SDA2024_Onsite_Cucumber$Scenario__The_name_of_the_scenario.ic" NAME="Scenario: The name of the scenario Coverage Results" MODIFIED="1711351337020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

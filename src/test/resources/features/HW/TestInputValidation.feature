@@ -3,7 +3,8 @@ Feature: Fill Form and submit with scenario outline
 
     @ScenarioOutline
     Scenario Outline:
-      Given Open diver and go to Input Validation Examples page
+      Given Open browser
+      And go to Input Validation Examples page
       When First step user will enter "<firstName>"
       And Second step user will enter "<lastName>"
       And Third step user will enter "<age>"
@@ -11,6 +12,7 @@ Feature: Fill Form and submit with scenario outline
       And Fifth user will enter "<notes>"
       And user will press submit button
       Then Error message will appear
+      And closes the page
 
       Examples:
         | firstName | lastName | age | country      | notes      |  |

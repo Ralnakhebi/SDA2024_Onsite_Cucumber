@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,13 +16,6 @@ public class Day1Task2 {
 
     WebDriver driver;
 
-    @Given("Open diver and go to Input Validation Examples page")
-    public void open_diver_and_go_to_input_validation_examples_page() {
-        driver =new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://testpages.eviltester.com/styled/validation/input-validation.html");
-    }
     @When("First step user will enter {string}")
     public void first_step_user_will_enter(String string) {
     driver.findElement(By.id("firstname")).sendKeys(string);
@@ -67,4 +59,22 @@ public class Day1Task2 {
         driver.quit();
     }
 
+    @Given("Open browser")
+    public void openDiver() {
+        driver =new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+    }
+
+    @And("go to Input Validation Examples page")
+    public void inputValidationExamplesPage() {
+        driver.get("https://testpages.eviltester.com/styled/validation/input-validation.html");
+
+    }
+
+    @And("closes the page")
+    public void closesThePage() {
+        driver.quit();
+    }
 }

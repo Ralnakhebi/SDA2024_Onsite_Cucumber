@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Button_HW_MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/scenarioOutline.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: TestInputValidation.executor": "Run",
+    "Cucumber Java.Feature: clickButtons.executor": "Run",
     "Cucumber Java.Feature: firstfeature.executor": "Run",
     "Cucumber Java.Feature: scenarioOutline.executor": "Run",
     "Cucumber Java.Feature: secondFeature.executor": "Run",
@@ -61,14 +59,15 @@
       <recent name="C:\Users\Remoo\IdeaProjects\SDA2024_Onsite_Cucumber\src\test\resources\features\HW" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: TestInputValidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: clickButtons">
+    <configuration name="Feature: clickButtons" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TestInputValidation" />
+      <option name="SUGGESTED_NAME" value="Feature: clickButtons" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario:  - @R - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
-      <option name="GLUE" value="stepdefinitions.HW" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature:10" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
       <option name="NAME_FILTER" value="^$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="SUGGESTED_NAME" value="Scenario:  - @R - Example n°1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
+      <item itemvalue="Cucumber Java.Feature: clickButtons" />
       <item itemvalue="Cucumber Java.Feature: scenarioOutline" />
-      <item itemvalue="Cucumber Java.Scenario:  (1)" />
+      <item itemvalue="Cucumber Java.Scenario:  - @R - Example n°1" />
       <item itemvalue="Cucumber Java.Scenario: Search for Keywords on Ebay" />
       <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: clickButtons" />
+        <item itemvalue="Cucumber Java.Scenario:  - @R - Example n°1" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: scenarioOutline" />
         <item itemvalue="Cucumber Java.Scenario: Search for Keywords on Ebay" />
-        <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
-        <item itemvalue="Cucumber Java.Scenario:  (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +187,17 @@
       <updated>1711348248142</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runners/Runner.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SDA2024_Onsite_Cucumber$Scenario__The_name_of_the_scenario.ic" NAME="Scenario: The name of the scenario Coverage Results" MODIFIED="1711351337020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

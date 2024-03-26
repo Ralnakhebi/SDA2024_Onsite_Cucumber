@@ -56,7 +56,7 @@ public class Day1Task2 {
         wait.until(ExpectedConditions.visibilityOf(errorMessage));
         Assert.assertTrue(errorMessage.isDisplayed());
 
-        driver.quit();
+
     }
 
     @Given("Open browser")

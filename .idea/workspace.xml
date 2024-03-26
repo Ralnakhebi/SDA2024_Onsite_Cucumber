@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="66.532" tests="14" skipped="0" failures="0" errors="0">
+<testcase classname="Search in google" name="TC01_samsungSearch" time="25.732">
+<system-out><![CDATA[
+Given user goes to google page..............................................passed
+When user searches for "samsung"............................................passed
+Then tests the page title contains the word "samsung".......................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for Desired Words on Amazon" name="Search for Keywords on Ebay - Example #1.1" time="26.741">
+<system-out><![CDATA[
+Given the user navigates to the Ebay homepage...............................passed
+* I open the browser........................................................passed
+When the user searches for "mac"............................................passed
+Then the user verifies that the search results contain "mac"................passed
+* I close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill Form and submit with scenario outline" name="Scenario for pressing Button and wait until a verify message appear" time="42.885">
+<system-out><![CDATA[
+Given go to Simple Dynamic Buttons page.....................................passed
+When Click on "start" Button................................................passed
+And Click on "One" Button...................................................passed
+And Click on "Two" Button...................................................passed
+And Click on "Three" Button.................................................passed
+Then verify message will appear.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill Form and submit with scenario outline" name="Enter Invalid credentials and verify the error message - Example #1.1" time="37.804">
+<system-out><![CDATA[
+Given Open browser..........................................................passed
+And go to Input Validation Examples page....................................passed
+When First step user will enter "Name3".....................................passed
+And Second step user will enter "surname3"..................................passed
+And Third step user will enter "44".........................................passed
+And Fourth step user will enter "Saudi Arabia"..............................passed
+And Fifth user will enter "first line"......................................passed
+And user will press submit button...........................................passed
+Then Error message will appear..............................................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data Tables Feature" name="Data Tables Test" time="26.391">
+<system-out><![CDATA[
+When I search for String on google..........................................passed
+Then I should see String on the results.....................................passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Name of the feature file" name="user search in google with different Keywords" time="25.737">
+<system-out><![CDATA[
+Given I open the browser....................................................passed
+And I am on the google homepage.............................................passed
+When I search for amazon on google..........................................passed
+Then I should see amazon on the results.....................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in google" name="TC02_samsungSearch" time="18.051">
+<system-out><![CDATA[
+Given user goes to google page..............................................passed
+When user searches for "cucumber"...........................................passed
+Then tests the page title contains the word "cucumber"......................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Name of the feature file" name="user search in google with different Keywords with parameters" time="16.912">
+<system-out><![CDATA[
+Given I open the browser....................................................passed
+And I am on the google homepage.............................................passed
+When I search for "java" on google..........................................passed
+Then I should see "java" on the results.....................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for Desired Words on Amazon" name="Search for Keywords on Ebay - Example #1.2" time="21.798">
+<system-out><![CDATA[
+Given the user navigates to the Ebay homepage...............................passed
+* I open the browser........................................................passed
+When the user searches for "color"..........................................passed
+Then the user verifies that the search results contain "color"..............passed
+* I close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill Form and submit with scenario outline" name="Enter Invalid credentials and verify the error message - Example #1.2" time="8.705">
+<system-out><![CDATA[
+Given Open browser..........................................................passed
+And go to Input Validation Examples page....................................passed
+When First step user will enter "Name1".....................................passed
+And Second step user will enter "surname1"..................................passed
+And Third step user will enter "22".........................................passed
+And Fourth step user will enter "Saudi Arabia"..............................passed
+And Fifth user will enter "note2"...........................................passed
+And user will press submit button...........................................passed
+Then Error message will appear..............................................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in google" name="Scenario to search for different values and verify the result - Example #1.1" time="14.833">
+<system-out><![CDATA[
+Given user goes to google page..............................................passed
+When user searches for "cucumber"...........................................passed
+Then tests the page title contains the word "cucumber"......................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill Form and submit with scenario outline" name="Enter Invalid credentials and verify the error message - Example #1.3" time="12.285">
+<system-out><![CDATA[
+Given Open browser..........................................................passed
+And go to Input Validation Examples page....................................passed
+When First step user will enter "Name2".....................................passed
+And Second step user will enter "surname2"..................................passed
+And Third step user will enter "66".........................................passed
+And Fourth step user will enter "Saudi Arabia"..............................passed
+And Fifth user will enter "note3"...........................................passed
+And user will press submit button...........................................passed
+Then Error message will appear..............................................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for Desired Words on Amazon" name="Search for Keywords on Ebay - Example #1.3" time="16.315">
+<system-out><![CDATA[
+Given the user navigates to the Ebay homepage...............................passed
+* I open the browser........................................................passed
+When the user searches for "linux"..........................................passed
+Then the user verifies that the search results contain "linux"..............passed
+* I close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search in google" name="Scenario to search for different values and verify the result - Example #1.2" time="7.562">
+<system-out><![CDATA[
+Given user goes to google page..............................................passed
+When user searches for "java"...............................................passed
+Then tests the page title contains the word "java"..........................passed
+And closes the page.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

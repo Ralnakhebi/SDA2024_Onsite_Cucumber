@@ -2,6 +2,11 @@ package stepdefinitions;
 
 
 import io.cucumber.java.en.*;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 import java.util.List;
 
@@ -15,14 +20,17 @@ public class DataTablesStepDef {
         // Double, Byte, Short, Long, BigInteger or BigDecimal.
         //
         // For other transformations you can register a DataTableType.
+        Driver.getDriver().get(ConfigReader.getProperty("googleUrl"));
+
         for(int i = 0; i<dataTable.size(); i++){
             for (int j=0; j<dataTable.get(i).size();j++){
+                Driver.getDriver().findElement(By.name("q")).sendKeys(dataTable.get(i).get(j), Keys.ENTER);
                 System.out.println(dataTable.get(i).get(j));
             }
         }
     }
     @Then("I should see String on the results")
-    public void i_should_see_string_on_the_results(io.cucumber.datatable.DataTable dataTable) {
+    public void i_should_see_string_on_the_results(List<List<String>> dataTable) {
         // Write code here that turns the phrase above into concrete actions
         // For automatic transformation, change DataTable to one of
         // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
@@ -30,6 +38,13 @@ public class DataTablesStepDef {
         // Double, Byte, Short, Long, BigInteger or BigDecimal.
         //
         // For other transformations you can register a DataTableType.
+
+        for(int i = 0; i<dataTable.size(); i++){
+            for (int j=0; j<dataTable.get(i).size();j++){
+                Assert.assertTrue(Driver.getDriver().getTitle().contains(dataTable.get(i).get(j)));
+                System.out.println(dataTable.get(i).get(j));
+            }
+        }
 
     }
 

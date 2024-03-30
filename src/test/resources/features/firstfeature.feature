@@ -5,12 +5,12 @@ Background: The name of background
   And I am on the google homepage
 
   @myTage
-  Scenario: The name of the scenario
+  Scenario: user search in google with different Keywords
     When I search for amazon on google
     Then I should see amazon on the results
     Then close the browser
 
-  Scenario: The name of the scenario
+  Scenario: user search in google with different Keywords with parameters
     When I search for "java" on google
     Then I should see "java" on the results
     Then close the browser

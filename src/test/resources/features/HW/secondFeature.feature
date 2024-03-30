@@ -15,7 +15,7 @@ Feature: Search in google
     And closes the page
 
 
-  Scenario Outline:
+  Scenario Outline: Scenario to search for different values and verify the result
     When user searches for "<searchKey>"
     Then tests the page title contains the word "<searchKey>"
     And closes the page

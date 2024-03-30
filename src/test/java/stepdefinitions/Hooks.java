@@ -10,6 +10,7 @@ import utilities.Driver;
 public class Hooks {
     @Before
     public void setUp(Scenario scenario){
+        Driver.getDriver();
         System.out.println("Before the scenario: Setting up the environment");
         System.out.println("Scenario id: "+scenario.getId());
         System.out.println("Scenario name: "+scenario.getName());
@@ -23,7 +24,8 @@ public class Hooks {
         if (scenario.isFailed()){
             byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","FailedScreenshot");
-            
+
         }
+        Driver.closeDriver();
     }
 }

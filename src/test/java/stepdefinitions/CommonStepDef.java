@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import utilities.Driver;
 
 public class CommonStepDef {
-    WebDriver driver;
+
     @Given("I open the browser")
     public void i_open_the_browser() {
         Driver.getDriver();
@@ -42,7 +42,7 @@ public class CommonStepDef {
 
     @Then("close the browser")
     public void close_the_browser() {
-        Driver.closeDriver();
+
     }
 
 }

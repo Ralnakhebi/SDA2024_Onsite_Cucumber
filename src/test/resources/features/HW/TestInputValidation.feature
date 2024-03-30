@@ -4,7 +4,7 @@ Feature: Fill Form and submit with scenario outline
     And go to Input Validation Examples page
 
     @ScenarioOutline
-    Scenario Outline:
+    Scenario Outline: Enter Invalid credentials and verify the error message
       When First step user will enter "<firstName>"
       And Second step user will enter "<lastName>"
       And Third step user will enter "<age>"

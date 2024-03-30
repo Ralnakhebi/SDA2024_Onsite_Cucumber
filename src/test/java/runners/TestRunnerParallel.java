@@ -8,17 +8,14 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "stepdefinitions",
         features = "src/test/resources/features",
-        tags = " @Click_Buttons ",
         plugin = {
                 "html:target/html-report/report.html",
-                "json:target/json-report/report.json",
+                "json:target/report.json",
                 "junit:target/xml-report/report.xml",
                 "pretty",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome = false,
         dryRun = false
 )
-public class Runner {
-
+public class TestRunnerParallel {
 }

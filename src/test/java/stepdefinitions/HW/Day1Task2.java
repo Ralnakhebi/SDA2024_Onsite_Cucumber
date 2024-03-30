@@ -62,7 +62,7 @@ public class Day1Task2 {
 
     @Given("Open browser")
     public void openDiver() {
-        Driver.getDriver();
+
 
     }
 
@@ -74,6 +74,6 @@ public class Day1Task2 {
 
     @And("closes the page")
     public void closesThePage() {
-        Driver.closeDriver();
+
     }
 }

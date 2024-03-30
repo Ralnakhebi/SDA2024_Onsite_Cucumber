@@ -3,7 +3,7 @@ Feature: Fill Form and submit with scenario outline
     Given go to Simple Dynamic Buttons page
 
   @Click_Buttons
-  Scenario:
+  Scenario: Scenario for pressing Button and wait until a verify message appear
     When Click on "start" Button
     And Click on "One" Button
     And Click on "Two" Button

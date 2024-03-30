@@ -33,7 +33,6 @@ public class ScenarioOutlineStepDef {
 
     @When("I close the browser")
     public void iCloseTheBrowser() {
-        //Driver.closeDriver();
 
     }
 }

@@ -98,7 +98,7 @@
                 <parallel>methods</parallel>
                 <threadCount>4</threadCount>
                 <redirectTestOutputToFile>true</redirectTestOutputToFile>
-                <testFailureIgnore>true</testFailureIgnore>
+                <testFailureIgnore>false</testFailureIgnore>
                 <skipTests>false</skipTests>
                 <includes>
                     <include>**/runners/Runner.java</include>

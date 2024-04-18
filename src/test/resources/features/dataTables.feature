@@ -8,3 +8,4 @@ Feature: Data Tables Feature
       | amazon |
       |SDA     |
     Then I close the browser
+    Then Test failed

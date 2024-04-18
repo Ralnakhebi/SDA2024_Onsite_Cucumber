@@ -45,4 +45,8 @@ public class CommonStepDef {
 
     }
 
+    @Then("Test failed")
+    public void testFailed() {
+        Assert.fail();
+    }
 }

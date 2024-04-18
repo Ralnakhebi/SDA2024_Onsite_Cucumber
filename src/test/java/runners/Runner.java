@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = "stepdefinitions",
-        features = "src/test/resources/features",
-        tags = " @Click_Buttons ",
+        features = "src/test/resources/features/dataTables.feature",
+        //tags = " @Click_Buttons ",
         plugin = {
                 "html:target/html-report/report.html",
                 "json:target/json-report/report.json",

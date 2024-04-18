@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c38005e-bf8e-4cc9-b819-76ac39c18dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunnerParallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CommonStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DataTablesStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW/Day1Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HW/secondFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HW/secondFeature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstfeature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/scenarioOutline.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,43 +31,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: TestInputValidation.executor": "Run",
-    "Cucumber Java.Feature: clickButtons.executor": "Run",
-    "Cucumber Java.Feature: firstfeature.executor": "Run",
-    "Cucumber Java.Feature: scenarioOutline.executor": "Run",
-    "Cucumber Java.Feature: secondFeature.executor": "Run",
-    "Cucumber Java.Scenario:  (1).executor": "Run",
-    "Cucumber Java.Scenario:  - @R - Example n°1.executor": "Run",
-    "Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1.executor": "Run",
-    "Cucumber Java.Scenario: .executor": "Run",
-    "Cucumber Java.Scenario: Enter Invalid credentials and verify the error message.executor": "Run",
-    "Cucumber Java.Scenario: Search for Keywords on Ebay.executor": "Run",
-    "Cucumber Java.Scenario: The name of the scenario.executor": "Run",
-    "JUnit.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: TestInputValidation.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: clickButtons.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: firstfeature.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: scenarioOutline.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: secondFeature.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario:  (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario:  - @R - Example n°1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario:  - @ScenarioOut... - Example n°1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: .executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Enter Invalid credentials and verify the error message.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Search for Keywords on Ebay.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: The name of the scenario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Remoo\IdeaProjects\SDA2024_Onsite_Cucumber\src\test\resources\features\HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Enter Invalid credentials and verify the error message">
-    <configuration name="Feature: clickButtons" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: TestInputValidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/clickButtons.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: clickButtons" />
+      <option name="SUGGESTED_NAME" value="Feature: TestInputValidation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -138,6 +121,7 @@
     <configuration name="Scenario: Enter Invalid credentials and verify the error message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HW/TestInputValidation.feature" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SDA2024_Onsite_Cucumber" />
       <option name="NAME_FILTER" value="^Enter Invalid credentials and verify the error message$" />
@@ -170,19 +154,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Enter Invalid credentials and verify the error message" />
-      <item itemvalue="Cucumber Java.Feature: clickButtons" />
+      <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
       <item itemvalue="Cucumber Java.Feature: scenarioOutline" />
       <item itemvalue="Cucumber Java.Scenario:  - @R - Example n°1" />
+      <item itemvalue="Cucumber Java.Scenario: Enter Invalid credentials and verify the error message" />
       <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Enter Invalid credentials and verify the error message" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: clickButtons" />
-        <item itemvalue="Cucumber Java.Scenario:  - @R - Example n°1" />
-        <item itemvalue="Cucumber Java.Feature: scenarioOutline" />
+        <item itemvalue="Cucumber Java.Feature: TestInputValidation" />
       </list>
     </recent_temporary>
   </component>
